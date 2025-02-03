@@ -1,0 +1,111 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+  }
+  
+#top {
+    width: 100%;
+    height: 200px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+#personal_information p {
+    margin: 0px 0
+}
+  
+#personal_information p:first-child {
+    font-size: 24px; /* Increase name size */
+    font-weight: bold; /* Make the name bold */
+}
+  
+#contact_information p {
+    margin: 2px 0;
+    font-size: 12px;
+}
+  
+#contact_information a {
+    color: blue;
+    text-decoration: underline;
+}
+  
+.resume_content > *:not(:last-child) {
+    border-bottom: 2px solid #000;
+}
+  
+.resume_content > * {
+    display: flex;
+    align-items: flex-start; /* Ensures titles and content start at the same height */
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    min-height: auto;
+}
+  
+.title {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14pt;
+    padding: 10px 20px;
+    text-align: left;
+    width: 200px; /* Keeps all titles aligned */
+    flex-shrink: 0;
+}
+  
+.personal_profile p {
+    margin: 0; /* Removes default margin from the paragraph */
+    align-items: center;
+    padding: 10px;
+    font-size: 14pt;
+}
+  
+ul {
+    list-style-type: none;
+    display: flex;
+}
+  
+.university-info h1 {
+    font-size: 14pt;
+    margin-bottom: 5px;
+}
+  
+.university-info p {
+    margin: 0 0;
+    font-size: 16px;
+}
+  
+.work_detail h1 {
+    margin-top: 8px;
+    font-size: 14pt;
+    font-weight: none;
+}
+  
+  .work_detail p {
+    margin: 0 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .skill_list {
+    display: flex; 
+    flex-direction: column; /* Stack list items vertically */
+    font-size: 14pt;
+    margin: 0; /* Remove default margin */
+    padding: 5px; /* Add slight padding for spacing */
+}
+
+.skill_list li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+.list {
+    margin: 0 0;
+}
+
+.content {
+    display: flex; /* Ensures the content area expands while keeping titles aligned */
+    gap: 30px; /* Increases space between columns */
+}
