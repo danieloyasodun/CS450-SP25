@@ -3,10 +3,9 @@
 https://drive.google.com/file/d/1tLys6QpfYbR63Vtqoj3GMU9ux71LGWgi/view
 
 In this assignment, you will utilize state and props in ReactJS to create the resume website(sample)
+by breaking it down into 1 parent component and 5 child components. All data will be stored in the parent component (App.js) and passed as props to the child components. 
 
-Links to an external site. by breaking it down into 1 parent component and 5 child components. All data will be stored in the parent component (App.js) and passed as props to the child components. 
-
-Note: You are not allowed to have any state variables in the child components, nor store any data in them.
+**Note: You are not allowed to have any state variables in the child components, nor store any data in them.**
 
 ## Components details ##
   - App.js (Parent component)
@@ -22,9 +21,7 @@ Note: You are not allowed to have any state variables in the child components, n
   - Pass the data from App.js to the child components as props.
 
 ## Deployment ##
-- Deploy your website to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL. (
-How to Deploy React App to GitHub Pages | Step by step.)
-Links to an external site.
+- Deploy your website to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL. 
 
 ## Submission ##
 - Submit the following on Canvas:
