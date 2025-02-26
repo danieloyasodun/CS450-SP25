@@ -4,6 +4,7 @@ In a React project, create two child components named Child1 and Child2. Load th
 Child1 Component: Create a scatter plot of total bill vs tips that includes axis labels and a title.
 Child2 Component: Create a bar chart to display the average tips for each day, also including axis labels and a title.
 The expected output of the application will be as follows:
+
 ![image](https://github.com/user-attachments/assets/b2d5f484-0a4d-439b-95d1-05a00ceac5a6)
 
 
