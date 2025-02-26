@@ -12,7 +12,7 @@ In this assignment, you are required to build this website using HTML and CSS wi
   - CSS File: Create a CSS file named styles.css. This file should contain all the CSS code required to style your webpage.
   
 ## Deployment ##
-  -Deploy your react project to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
+  - Deploy your react project to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
   
 ## Submission ## 
 - Submit the following on Canvas:
