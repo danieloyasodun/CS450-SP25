@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Assignment 3 #
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In a React project, create two child components named Child1 and Child2. Load the tips.csv dataset within the App component and pass the data to the child components via props.
+Child1 Component: Create a scatter plot of total bill vs tips that includes axis labels and a title.
+Child2 Component: Create a bar chart to display the average tips for each day, also including axis labels and a title.
+The expected output of the application will be as follows:
+![image](https://github.com/user-attachments/assets/b2d5f484-0a4d-439b-95d1-05a00ceac5a6)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Deployment ## 
+- Deploy your application to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL. (How to Deploy React App to GitHub Pages | Step by step.)
 
-### `npm start`
+## Submission ##
+  - Submit the following on Canvas:
+    - The parent component, all child components, and the CSS file.
+    - A link to your deployed application on GitHub Pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Note: You will only use D3, HTML and CSS to complete this assignment.**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Grading Rubric ##
+  - Child1 Component: Scatter Plot of Total Bill vs. Tips (50 Points)
+  - Scatter Plot Creation (25 Points)
+  - Axis Labels Position and Rotation (15 Points)
+  - Title Position (10 Points)
+  - Child2 Component: Bar Chart of Average Tips for Each Day (50 Points)
+  - Bar Chart Creation (25 Points)
+  - Axis Labels Position and Rotation (15 Points)
+  - Title Position (10 Points)
 
-### `npm test`
+Slight deviations in positioning are acceptable as long as they still look visually pleasing. However, significant misalignment will result in a loss of points. The color of the circles and bars should be #69b3a2, though you are free to use any color you prefer. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
