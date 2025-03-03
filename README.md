@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Assignment 4 #
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this assignment, you will develop a dashboard that visualizes tweets and their predicted sentiments using the provided starter code and the dataset. The dashboard will include an interactive 2D scatter plot, where each tweet is represented by a circle. The location of each circle will be determined by the "Dimension 1" and "Dimension 2" columns from the dataset, and the color of each circle will correspond to the sentiment of the PredictedSentiment column of the dataset. The scatter plot will initially be empty, and after uploading the data, the chart will refresh. Additionally, the list of selected tweets will dynamically update based on the user's interaction with the data points on the scatter plot, as shown below:
 
-## Available Scripts
+![image](https://github.com/user-attachments/assets/898d509f-3fb1-4b87-8568-2f9f63cf3799)
 
-In the project directory, you can run:
+## Deployment ## 
+- Deploy your application to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
 
-### `npm start`
+## Submission ##
+ -  Submit the app.js component and the link to your deployed application on GitHub Pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Grading Rubric ## 
+- ScatterPlot Component (60%)
+  - The ScatterPlot should correctly render points based on "Dimension 1" and "Dimension 2" using appropriate scaling functions. Points must be color-coded by sentiment and support brush interaction for selecting and filtering tweets.
+- Legend Component (20%)
+  - The legend must clearly display color-coded circles and labels for each sentiment. It should be well-placed and easy to read as illustrated above.
+- SelectedTweets Component (20%)
+  - The SelectedTweets component should display selected tweets with correct sentiment colors and update dynamically based on brush selection as illustrated above.
