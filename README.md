@@ -1,6 +1,7 @@
 # Assignment 1
 
-https://drive.google.com/file/d/1tLys6QpfYbR63Vtqoj3GMU9ux71LGWgi/view
+[Assignment 1 Sample-1.pdf](https://github.com/user-attachments/files/19047360/Assignment.1.Sample-1.pdf)
+
 
 In this assignment, you are required to build this website using HTML and CSS with a focus on Flexbox layout. Follow these steps to complete the assignment:
 
