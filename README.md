@@ -9,7 +9,7 @@ The expected output of the application will be as follows:
 
 
 ## Deployment ## 
-- Deploy your application to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL. (How to Deploy React App to GitHub Pages | Step by step.)
+- Deploy your application to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
 
 ## Submission ##
   - Submit the following on Canvas:
