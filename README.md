@@ -1,6 +1,7 @@
 # Assignment 2
 
-https://drive.google.com/file/d/1tLys6QpfYbR63Vtqoj3GMU9ux71LGWgi/view
+![Assignment 1 Sample-1-1](https://github.com/user-attachments/assets/e3cc05ff-522b-419c-82b5-1ce14243ec6b)
+
 
 In this assignment, you will utilize state and props in ReactJS to create the resume website(sample)
 by breaking it down into 1 parent component and 5 child components. All data will be stored in the parent component (App.js) and passed as props to the child components. 
